@@ -1,0 +1,19 @@
+{
+  "name": "swerslte",
+  "version": "1.0.0",
+  "description": "Location-based Control and Management System for Safety Warning and Emergency Rescuing Services using LTE D2D Technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kajahno/swerslte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajahno/swerslte/issues"
+  },
+  "homepage": "https://github.com/kajahno/swerslte#readme"
+}
