@@ -1,19 +1,33 @@
 {
-  "name": "swerslte",
+  "name": "iai",
   "version": "1.0.0",
-  "description": "Location-based Control and Management System for Safety Warning and Emergency Rescuing Services using LTE D2D Technology",
+  "description": "Instituto Aleman de Idiomas website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kajahno/swerslte.git"
+    "url": "git+https://github.com/kajahno/iai.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kajahno/swerslte/issues"
+    "url": "https://github.com/kajahno/iai/issues"
   },
-  "homepage": "https://github.com/kajahno/swerslte#readme"
+  "homepage": "https://github.com/kajahno/iai#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^2.0.0"
+  }
 }
