@@ -6466,3 +6466,9 @@ p {
 
 footer.page-footer {
   margin: 0; }
+
+.main-background {
+  filter: brightness(40%); }
+
+.navbar-top {
+  background: #448AFF; }
