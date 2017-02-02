@@ -6428,9 +6428,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  *
  * Made By MaterializeCSS.com
  */
+.text-uppercase {
+  text-transform: uppercase; }
+
 nav ul a,
 nav .brand-logo {
-  color: #444; }
+  color: #fff;
+  text-transform: uppercase; }
 
 p {
   line-height: 2rem; }
@@ -6469,6 +6473,3 @@ footer.page-footer {
 
 .main-background {
   filter: brightness(40%); }
-
-.navbar-top {
-  background: #448AFF; }

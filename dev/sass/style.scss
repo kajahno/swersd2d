@@ -6,9 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+.text-uppercase {
+  text-transform: uppercase;
+}
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 p {
@@ -61,7 +65,7 @@ footer.page-footer {
 }
 
 .navbar-top {
-  background: #448AFF;
+  //background: #448AFF;
 }
 
 // .btn-large {
