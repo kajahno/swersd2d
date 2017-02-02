@@ -2,6 +2,7 @@
  * Created by bolaj on 02/02/2017.
  */
 
+//animated scrolling
 $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
