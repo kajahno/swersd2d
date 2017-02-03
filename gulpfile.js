@@ -18,9 +18,13 @@ gulp.task('browser-sync', function() {
     });
 });
 //copy assets from node_modules folder to dev
-gulp.task('copy-node-assets', function () {
+gulp.task('copy-node-sass', function () {
   return gulp.src(['./node_modules/materialize-css/sass/**/*.scss','!./node_modules/materialize-css/sass/ghpages*','!./node_modules/materialize-css/sass/style.scss'])
     .pipe(gulp.dest('./dev/sass'));
+});
+gulp.task('copy-node-js', function () {
+    return gulp.src(['./node_modules/clamp-js/clamp.js'])
+        .pipe(gulp.dest('./dev/js'));
 });
 //copy fonts from dev to prod
 gulp.task('copy-node-fonts', function () {
@@ -55,12 +59,12 @@ gulp.task('js', function () {
     .pipe(browserSync.reload({stream: true}))
 });
 //images task
-gulp.task('images', () =>
+gulp.task('images', function() {
     gulp.src('./dev/img/*.+(jpg|jpeg|png|gif)')
         .pipe(imagemin())
         .pipe(gulp.dest('./prod/img/'))
         .pipe(browserSync.reload({stream: true}))
-);
+});
 //clean production folder before running build
 gulp.task('clean:prod', function () {
   return del.sync([
