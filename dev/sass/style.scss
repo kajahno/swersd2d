@@ -71,3 +71,13 @@ footer.page-footer {
 // .btn-large {
 //   background: #448AFF;
 // }
+
+.mdx-card-logo {
+  height: 250px;
+  width: 250px;
+  margin:auto;
+  img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+}
