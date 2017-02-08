@@ -6435,23 +6435,23 @@ h2 {
     h2 {
       font-size: 3.56rem; } }
 
-.card-panel {
+.aims .card-panel {
   min-height: 165px; }
   @media (min-width: 600px) {
-    .card-panel {
+    .aims .card-panel {
       min-height: 190px; } }
   @media (min-width: 992px) {
-    .card-panel {
-      min-height: 215px; } }
+    .aims .card-panel {
+      min-height: 305px; } }
 
-.icon-block {
+.benefits .icon-block {
   min-height: 165px; }
   @media (min-width: 600px) {
-    .icon-block {
+    .benefits .icon-block {
       min-height: 265px; } }
   @media (min-width: 992px) {
-    .icon-block {
-      min-height: 305px; } }
+    .benefits .icon-block {
+      min-height: 300px; } }
 
 /* Custom Stylesheet */
 /**
@@ -6461,7 +6461,7 @@ h2 {
  *
  */
 .team .card {
-  height: 520px; }
+  height: 600px; }
 
 .card .card-image {
   height: 70px; }
@@ -6469,6 +6469,12 @@ h2 {
     height: 100px;
     width: auto;
     margin: 0 auto; }
+
+.card .card-content {
+  padding: 20px 0; }
+
+.card .card-content .card-title {
+  line-height: 25px; }
 
 .icon-block .material-icons {
   font-size: 3.56rem !important; }

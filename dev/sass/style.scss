@@ -7,7 +7,7 @@
  */
 .team {
   .card {
-    height: 520px;
+    height: 600px;
   }
 }
 .card .card-image {
@@ -17,6 +17,12 @@
     width: auto;
     margin: 0 auto;
   }
+}
+.card .card-content {
+  padding: 20px 0;
+}
+.card .card-content .card-title {
+  line-height: 25px;
 }
 .icon-block .material-icons {
   font-size: 3.56rem !important;
