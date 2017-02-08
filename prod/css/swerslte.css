@@ -6435,9 +6435,6 @@ h2 {
     h2 {
       font-size: 3.56rem; } }
 
-.icon-block .material-icons {
-  font-size: 3.56rem !important; }
-
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
@@ -6445,6 +6442,9 @@ h2 {
  *
  * Made By MaterializeCSS.com
  */
+.icon-block .material-icons {
+  font-size: 3.56rem !important; }
+
 .text-uppercase {
   text-transform: uppercase; }
 
