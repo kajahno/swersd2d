@@ -6435,13 +6435,41 @@ h2 {
     h2 {
       font-size: 3.56rem; } }
 
+.card-panel {
+  min-height: 165px; }
+  @media (min-width: 600px) {
+    .card-panel {
+      min-height: 190px; } }
+  @media (min-width: 992px) {
+    .card-panel {
+      min-height: 215px; } }
+
+.icon-block {
+  min-height: 165px; }
+  @media (min-width: 600px) {
+    .icon-block {
+      min-height: 265px; } }
+  @media (min-width: 992px) {
+    .icon-block {
+      min-height: 305px; } }
+
 /* Custom Stylesheet */
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
+ *
  */
+.team .card {
+  height: 520px; }
+
+.card .card-image {
+  height: 70px; }
+  .card .card-image img {
+    height: 100px;
+    width: auto;
+    margin: 0 auto; }
+
 .icon-block .material-icons {
   font-size: 3.56rem !important; }
 
@@ -6480,7 +6508,6 @@ p {
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
-    position: absolute;
     top: 60%; }
   #index-banner .section {
     top: 10%; } }

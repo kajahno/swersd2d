@@ -3,9 +3,21 @@
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
- * Made By MaterializeCSS.com
+ *
  */
-
+.team {
+  .card {
+    height: 520px;
+  }
+}
+.card .card-image {
+  height: 70px;
+  img {
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+  }
+}
 .icon-block .material-icons {
   font-size: 3.56rem !important;
 }
@@ -47,7 +59,7 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
+    //position: absolute;
     top: 60%;
   }
   #index-banner .section {

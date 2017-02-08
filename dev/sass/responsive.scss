@@ -12,3 +12,21 @@ h2 {
     font-size: 3.56rem;
   }
 }
+.card-panel {
+  min-height: 165px;
+  @media (min-width: 600px) {
+    min-height: 190px;
+  }
+  @media (min-width: 992px) {
+    min-height: 215px;
+  }
+}
+.icon-block {
+  min-height: 165px;
+  @media (min-width: 600px) {
+    min-height: 265px;
+  }
+  @media (min-width: 992px) {
+    min-height: 305px;
+  }
+}
