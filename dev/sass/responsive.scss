@@ -1,0 +1,17 @@
+h2 {
+  font-size: 1.56rem;
+  text-transform: uppercase !important;
+  font-weight:500;
+  @media (min-width: 767px) {
+    font-size: 2.56rem;
+  }
+  @media (min-width: 767px) {
+    font-size: 2.56rem;
+  }
+  @media (min-width: 960px) {
+    font-size: 3.56rem;
+  }
+}
+.icon-block .material-icons {
+  font-size: 3.56rem !important;
+}
