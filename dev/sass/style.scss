@@ -9,12 +9,21 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
 nav ul a,
 nav .brand-logo {
   color: #fff;
   text-transform: uppercase;
 }
-
+.section h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
 p {
   line-height: 2rem;
 }

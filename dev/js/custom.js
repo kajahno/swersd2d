@@ -17,3 +17,13 @@ $(function() {
         }
     });
 });
+$(document).ready(function(){
+    //tabs
+    $('ul.tabs').tabs();
+    //line clamp
+    $clamp(clamp3, {clamp: 5});
+});
+$(document).ready(function () {
+    //modal
+    $('.modal').modal();
+});
